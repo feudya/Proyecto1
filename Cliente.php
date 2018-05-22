@@ -1,3 +1,3 @@
 <?php
 
-echo "Programa cliente";
+echo "Programa cliente.";

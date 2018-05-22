@@ -1,0 +1,40 @@
+-grupo de tres 
+@phplunes
+
+
+-git (control de versiones)
+--branch
+--push
+--pull
+--commit
+--tags
+--merge
+
+virtualbox
+git
+
+
+
+******************************************
+ir a la ruta de donde estoy
+******************************************
+git init
+git status
+git add . /// . para todo lo que hay en el directorio actual
+git config --global user.name "ElMeroMero"
+git config --global user.email "elmero@mail.com"
+git commit -m "Agregue al cliente"  /// cualquier mensaje
+
+git clone https://github.com/feudya/Proyecto1.git
+or
+git remote add origin https://github.com/feudya/Proyecto1.git
+
+git push origin master //// master se refiere a la branch en la que estamos. tener muy en cuenta al momento de subir
+
+git checkout -b dev  /// crea una nueva branch y se mueve a ellas
+git checkout dev|master /// permite cambiar entre branchs
+
+.git/config
+
+no se puede inicializar dos repositorios
+

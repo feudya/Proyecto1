@@ -10,6 +10,16 @@
 --tags
 --merge
 
+-framework
+-orm
+-patron diseño
+-symfony
+-base de datos (mariadb, mysql)
+-API
+-Resful
+-PHP (composer)
+-hginx
+
 virtualbox
 git
 
@@ -37,7 +47,10 @@ git checkout -b dev  /// crea una nueva branch y se mueve a ellas
 git push origin master //// master se refiere a la branch en la que estamos. tener muy en cuenta al momento de subir
 
 git checkout -b dev  /// crea una nueva branch y se mueve a ellas
-git checkout dev|master /// permite cambiar entre branchs
+git checkout dev|master /// permite cambiar entre branch
+
+git merge master  //// primer hacer el merge estando en la hija para evitar cambios de hotfix. luego hacer el merge desde master con git merge dev
+
 >>>>>>> master
 
 .git/config
